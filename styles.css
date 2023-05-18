@@ -127,7 +127,7 @@ i:first-child{
         z-index: 90;
     }
     .hamburger{
-        position: fixed;
+        position: absolute;
         top: 2rem;
         left: 1rem;
         display: block;
@@ -142,6 +142,11 @@ i:first-child{
     }
     .active{
         display: block;
+    }
+    .hamburger-position{
+        position: fixed;
+        top: 2rem;
+        left: 1rem;
     }
 }
 
